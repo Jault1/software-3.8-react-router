@@ -3,6 +3,7 @@ import styles from './Item.module.css';
 
 function Item({ list, handlerDelete }) {
   const { id } = useParams();
+  console.log('id',id)
   const product = list.find((item) => item.id === id);
   const navigate = useNavigate();
   return (
