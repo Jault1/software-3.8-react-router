@@ -14,14 +14,20 @@ const NotFound =  () =>(<h1>Not found</h1>)
 
 function App() {
   const [list, setList] = useState(dummyData);
+  console.log(list.type);
   const handlerDeleteProduct = (id) => {
     const newList = list.filter(
       (item) => item.id !== id
     );
     setList(newList);
   }
+  const handlerAddProduct = () => {
+    const newItem ={
+      //setList(values)
+    }
+    console.log(list);
+  }
 
-  
   return (
     <div className="App">
     <BrowserRouter>
@@ -31,7 +37,7 @@ function App() {
               <Route index element={<ItemDefault />} />
               <Route path=':id' element={<Item list={list} handlerDelete={handlerDeleteProduct} />} />
             </Route>
-            <Route path='add' element={<Add />} />
+            <Route path='add' element={<Add handlerAdd={handlerAddProduct} />} />
             <Route path='edit' element={<Edit />} />
           </Route>
           <Route path='*' element={<NotFound/>} />
