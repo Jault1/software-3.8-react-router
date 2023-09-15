@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/software-3.8-react-router/static/css/main.073c9b0a.css",
-    "main.js": "/software-3.8-react-router/static/js/main.f82f2490.js",
-    "static/js/787.3d025a83.chunk.js": "/software-3.8-react-router/static/js/787.3d025a83.chunk.js",
-    "static/media/logo.svg": "/software-3.8-react-router/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/software-3.8-react-router/static/css/main.b3c53adc.css",
+    "main.js": "/software-3.8-react-router/static/js/main.88af451e.js",
     "index.html": "/software-3.8-react-router/index.html",
-    "main.073c9b0a.css.map": "/software-3.8-react-router/static/css/main.073c9b0a.css.map",
-    "main.f82f2490.js.map": "/software-3.8-react-router/static/js/main.f82f2490.js.map",
-    "787.3d025a83.chunk.js.map": "/software-3.8-react-router/static/js/787.3d025a83.chunk.js.map"
+    "main.b3c53adc.css.map": "/software-3.8-react-router/static/css/main.b3c53adc.css.map",
+    "main.88af451e.js.map": "/software-3.8-react-router/static/js/main.88af451e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f82f2490.js"
+    "static/css/main.b3c53adc.css",
+    "static/js/main.88af451e.js"
   ]
 }

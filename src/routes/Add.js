@@ -1,9 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
-
-//import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState } from 'react';
 import styles from "./Add.module.css";
-import Button from "../components/Button";
+//import Button from "../components/Button";
 
 function Add({ handlerAdd }) {
   const navigate = useNavigate();
@@ -24,6 +22,15 @@ function Add({ handlerAdd }) {
       {/* Build out the form to add a new product */}
       <form className={styles.container}>
         <div className={styles.form}>
+        <label>ID</label> <br />
+          <input className={styles.input} value={values.id}
+            onChange={handleInputChange}
+            name="id"
+            label="ID"/>
+
+          <br />
+          <br />
+
           <label>Product Name</label> <br />
           <input className={styles.input} value={values.name}
             onChange={handleInputChange}
