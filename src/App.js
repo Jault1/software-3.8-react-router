@@ -59,11 +59,7 @@ setList(newList)
 
   return (
     <div className="App">
-  Qasim
-  JohnTOM K.....
-  asdas
-  <h1>TRas</h1>
-  <h3>red</h3>
+
     <HashRouter>
     <Routes>
     <Route path='/' element={<Header />}>
